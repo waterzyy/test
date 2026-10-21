@@ -1,0 +1,2 @@
+Run with Lua 5.3+ from the import folder: lua tests/world/test_session.lua resources/[brothers]/brothers_world/
+Repeat for test_core.lua, test_server.lua and test_client.lua. These are API simulations, not a real FiveM session.

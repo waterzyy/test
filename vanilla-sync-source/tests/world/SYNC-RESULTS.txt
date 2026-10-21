@@ -1,0 +1,103 @@
+PASS shared spawn slots are close but not overlapping
+PASS both initial spawns share a known floor and direction
+PASS interaction cannot purchase a distant supply
+PASS nearest point identifies fixed free health supply
+PASS experimental points are hidden in main mode
+PASS experimental point is interactable in experimental mode
+PASS shop lookup rejects arbitrary payloads
+PASS nearby grounded respawn candidate is accepted
+PASS respawn cannot overlap brother or his vehicle
+PASS roof/interior floor mismatch is rejected
+PASS distant navmesh candidate is rejected
+PASS Russian UI chunking preserves the complete UTF-8 message
+PASS every UI chunk respects native byte limit without cutting UTF-8
+Completed 13 world-core checks
+
+[brothers_world] Local co-op ready: shared spawn, buddy map and free supply points. No database.
+PASS first member receives fixed shared spawn slot one
+PASS second member receives slot two rather than random spawn
+PASS duplicate hello does not move member to another slot
+PASS third registration cannot claim a co-op slot
+PASS unregistered player cannot request supplies
+PASS arbitrary model/coordinate payload is rejected
+PASS unknown supply id is rejected
+PASS server grants only the allowlisted supply to requesting player
+PASS repeated supply request is rate limited
+PASS supply becomes available after real cooldown
+PASS supply cooldowns are independent per brother
+PASS main server rejects experimental-only vehicle even with forged id
+PASS experimental server permits fixed vanilla DLC vehicle
+PASS buddy marker identity comes from source, not client payload
+PASS map updates have a bounded send rate
+PASS non-finite map coordinates are rejected
+PASS out-of-world map coordinates are rejected
+PASS heading is normalized before marker broadcast
+PASS regroup moves only the requesting brother
+PASS regroup is rate limited
+PASS ordinary player cannot force both brothers to regroup
+PASS host ACE permits shared return to hub
+PASS server console can return both to hub
+PASS environment export rejects arbitrary weather
+PASS environment export rejects fractional/invalid hour
+PASS validated environment update is broadcast once
+PASS disconnect removes buddy marker immediately
+PASS vacated slot is reused without moving remaining brother
+Completed 28 world-server checks; FiveM APIs simulated
+
+PASS keyboard E mapping registers the shared interaction command
+PASS local forged ready event cannot spawn or reset player
+[brothers_world] Вы вместе в Los Santos. F6 / /coophelp — помощь. E или крестовина вниз — точка снабжения.
+PASS initial spawn uses deterministic hub and player-one model
+PASS spawn grants configured health and armour without godmode
+PASS friendly fire is disabled for cooperative play
+PASS fresh spawn receives basic pistol and ammunition
+PASS duplicate handshake cannot repeatedly respawn player
+PASS controller interaction activates the exact nearby supply
+PASS controller interaction outside shops cannot buy anything
+PASS remote health grant is ignored when player is far from fixed supply
+[brothers_world] Здоровье и броня восстановлены. Бесплатно.
+PASS nearby validated health grant restores player
+PASS unknown grant id has no effect
+[brothers_world] Выданы пистолет, дробовик, фонарик, нож и патроны. Бесплатно.
+PASS loadout grants only fixed configured vanilla items
+PASS brother map marker exists outside entity streaming radius
+PASS far buddy marker updates in place and indicates death
+PASS disconnect removes far buddy map marker
+[brothers_world] Вы вместе в Los Santos. F6 / /coophelp — помощь. E или крестовина вниз — точка снабжения.
+PASS regroup loads remote collision scene then uses safe pavement near far brother
+[brothers_world] Вы вместе в Los Santos. F6 / /coophelp — помощь. E или крестовина вниз — точка снабжения.
+PASS invalid remote roof candidate falls back to known shared hub
+[brothers_world] Вы вместе в Los Santos. F6 / /coophelp — помощь. E или крестовина вниз — точка снабжения.
+PASS host hub action does not depend on remote buddy location
+[brothers_world] Готово! Одновременно доступна одна личная машина; занятую братом машину ресурс не удаляет.
+PASS garage creates fixed car and seats requesting brother as driver
+[brothers_world] Сначала выйдите из машины.
+PASS garage cannot replace a car while requesting player sits inside
+[brothers_world] Ваша предыдущая машина занята или недоступна для замены.
+PASS garage never deletes previous personal car occupied by brother
+[brothers_world] Готово! Одновременно доступна одна личная машина; занятую братом машину ресурс не удаляет.
+PASS garage replaces only its own empty previous vehicle, keeping limit one
+PASS keyboard command reaches repair interaction once while requester is in driver seat
+[brothers_world] Машина отремонтирована.
+PASS repair point affects current car only when requester is driver
+[brothers_world] Подъедьте к точке ремонта за рулём своей машины.
+PASS passenger cannot repair an arbitrary vehicle through shop grant
+PASS main client refuses experimental-only vehicle grant
+Completed 27 world-client checks; FiveM/streaming APIs simulated
+
+PASS handshake moves first player into shared bucket before world ready
+PASS joining brother is put in the same bucket
+PASS healthy shared bucket is not repeatedly rewritten
+PASS foreign instance assignment is reconciled for dedicated local world
+PASS ordinary second player cannot repair or teleport both players
+PASS console repair requests own visibility and shared hub for both clients
+PASS configured host may request shared repair
+PASS diagnostics include actual client entity presence report
+PASS nonexistent player ids cannot pollute session report
+PASS stale report is never represented as current synchronization
+PASS OneSync off is rejected with full restart instructions instead of fake success
+PASS spawn restores only own ped network visibility and clears spectator state
+PASS presence report measures real nearby players rather than blips
+PASS forged local repair event does not mutate the player
+PASS server-authorized repair restores own visibility
+Completed 15 session checks; real FiveM entity replication NOT simulated

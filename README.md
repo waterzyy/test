@@ -1,6 +1,10 @@
+## Обновление ванильной синхронизации 1.1
+
+[Скачать перенос 1.1](https://raw.githubusercontent.com/waterzyy/test/downloads/brothers-vanilla-import-v1.1.zip): OneSync, общий bucket, восстановление видимости после спавна, обычные персонажи вместо Майкла/Франклина и команда brothers_sync. При установленной 1.0 замените brothers_world и brothers-vanilla.cfg; полностью перезапустите сервер и оба клиента. [Изменения, проверки и границы проверки](vanilla-sync-source).
+
 ## Ванильные ресурсы для уже работающего сервера
 
-[Скачать перенос без установщика FXServer](https://raw.githubusercontent.com/waterzyy/test/downloads/brothers-vanilla-import-v1.0.zip) (около 655 КиБ). Внутри ресурсы, vMenu, optional spawnmanager/baseevents и brothers-vanilla.cfg. Существующие серверные бинарники и ключ остаются вашими. Роутер запускается отдельно из уже скачанной папки 01-controller. [Инструкция переноса](VANILLA-IMPORT-RU.txt).
+[Скачать перенос без установщика FXServer](https://raw.githubusercontent.com/waterzyy/test/downloads/brothers-vanilla-import-v1.1.zip) (около 670 КиБ). Внутри ресурсы, vMenu, optional spawnmanager/baseevents и brothers-vanilla.cfg. Существующие серверные бинарники и ключ остаются вашими. Роутер запускается отдельно из уже скачанной папки 01-controller. [Инструкция переноса](VANILLA-IMPORT-RU.txt).
 
 ## Бонус: «Вечер для двоих»
 
