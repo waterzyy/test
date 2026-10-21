@@ -1,3 +1,7 @@
+## Ванильные ресурсы для уже работающего сервера
+
+[Скачать перенос без установщика FXServer](https://raw.githubusercontent.com/waterzyy/test/downloads/brothers-vanilla-import-v1.0.zip) (около 655 КиБ). Внутри ресурсы, vMenu, optional spawnmanager/baseevents и brothers-vanilla.cfg. Существующие серверные бинарники и ключ остаются вашими. Роутер запускается отдельно из уже скачанной папки 01-controller. [Инструкция переноса](VANILLA-IMPORT-RU.txt).
+
 ## Бонус: «Вечер для двоих»
 
 [Скачать маленький офлайн-бонус](https://raw.githubusercontent.com/waterzyy/test/downloads/brothers-adventure-bonus.zip): 28 идей для совместных приключений, таймер, роли и журнал побед. Распакуйте и откройте HTML в браузере. Задания выполняются и отмечаются вручную; панель не подключается к игре. Исходник: [bonus-source](bonus-source).
