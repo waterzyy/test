@@ -1,3 +1,7 @@
+## Бонус: «Вечер для двоих»
+
+[Скачать маленький офлайн-бонус](https://raw.githubusercontent.com/waterzyy/test/downloads/brothers-adventure-bonus.zip): 28 идей для совместных приключений, таймер, роли и журнал побед. Распакуйте и откройте HTML в браузере. Задания выполняются и отмечаются вручную; панель не подключается к игре. Исходник: [bonus-source](bonus-source).
+
 # Brothers Co-op pack
 
 [Скачать весь комплект](https://raw.githubusercontent.com/waterzyy/test/downloads/brothers-coop-pack-v1.0.zip) · [Только контроллер 1.4](https://raw.githubusercontent.com/waterzyy/test/downloads/coop-controller-final-v1.4.zip)
